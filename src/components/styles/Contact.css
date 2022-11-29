@@ -1,0 +1,28 @@
+.container {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #e3f2c3;
+}
+
+h1 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+}
+
+.form-control, .form-group {
+    
+    font-family: 'Quicksand', sans-serif;
+    margin: .7%;
+    width: 100%;
+    max-width: 345px;
+}
+
+button {
+    margin: 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: #0d5743;
+    padding: 10px 20px;
+    color: white;
+}
+

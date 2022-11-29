@@ -1,16 +1,16 @@
 import React from 'react';
-import '../styles/Header.css';
+import '../styles/Header.css'
 
-function Header() {
+export default function Header() {
   return (
-    <header className="header">
-      <h1>Olivia Conley</h1>
-      <h1>About</h1>
-      <h1>Portfolio</h1>
-      <h1>Contact</h1>
-      <h1>Resume</h1>
-    </header>
+    <nav className="header">
+      <ul>
+      <li>Olivia Conley</li>
+      <li>About</li>
+      <li>Portfolio</li>
+      <li>Contact</li>
+      <li>Resume</li>
+      </ul>
+    </nav>
   );
 }
-
-export default Header;

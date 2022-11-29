@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 2%; 
+}
+
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    width: 20%; 
+  }
+
+  p {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 30%; 
+    margin-right: 20%; 
+    margin-top: .5%;
+    margin-bottom: .5%;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+  }
