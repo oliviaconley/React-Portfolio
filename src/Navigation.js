@@ -1,7 +1,9 @@
 import React from 'react';
+import './components/styles/Navigation.css'
 
 export default function Navigation({ currentPage, handlePageChange }) {
     return(
+        <div className='navbar'>
         <ul>
             <li>
                 <a href="#about"
@@ -28,5 +30,6 @@ export default function Navigation({ currentPage, handlePageChange }) {
                 </a>
             </li>
         </ul>
+        </div>
     )
 }

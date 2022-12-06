@@ -1,16 +1,12 @@
 import React from 'react';
 import '../styles/About.css';
-import Headshot from '../images/Headshot.jpg'
-
-const styles = {
-  aboutStyles: {
-    background: '#e3f2c3',
-  },
-};
+import Headshot from '../images/Headshot.jpg';
+import Hero from '../images/Hero.jpeg';
 
 export default function About() {
     return (
-      <div style={styles.aboutStyles}>
+      <div>
+        <img id="hero" src={Hero} alt="Hero"></img>
         <h1>Who am I?</h1>
         <img className="headshot" src={Headshot} alt = "Headshot"></img>
         <p>

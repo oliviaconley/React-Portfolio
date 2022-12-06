@@ -3,3 +3,8 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+body {
+    margin: 0;
+    background: #e3f2c3;
+}

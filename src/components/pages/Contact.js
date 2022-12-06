@@ -16,6 +16,7 @@ export default function Contact() {
         </div>
       </div>
     </div>
+    
     <div class="form-group">
       <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
     </div>

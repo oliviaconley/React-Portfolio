@@ -1,8 +1,9 @@
 import React from 'react';
-import '../styles/Header.css'
+import Navigation from '../../Navigation';
 
 export default function Header() {
   return (
+    <div>
     <nav className="header">
       <ul>
       <li>Olivia Conley</li>
@@ -12,5 +13,6 @@ export default function Header() {
       <li>Resume</li>
       </ul>
     </nav>
+    </div>
   );
 }

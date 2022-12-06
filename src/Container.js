@@ -4,7 +4,7 @@ import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio'; 
 import Contact from './components/pages/Contact'; 
 import Resume from './components/pages/Resume'; 
-//what about header and footer....? No i dont thnk so 
+import Footer from './components/pages/Footer';
 
 //checking to see what the value of `currentPage` is
 export default function Container() {
@@ -31,6 +31,7 @@ return (
     <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
     {/* Here we are calling the renderPage method which will return a component  */}
     {renderPage()}
+    <Footer/>
   </div>
   );
 }
