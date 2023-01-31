@@ -1,14 +1,19 @@
 import React from 'react';
-import './components/styles/Navigation.css'
 
 export default function Navigation({ currentPage, handlePageChange }) {
     return(
-        <div className='navbar'>
-        <ul>
+        <div className="hidden md:block w-full fixed">
+        <ul className="flex flex-col w-full p-4 mt-4 border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm text-white md:font-medium md:border-0 md:bg-black">
             <li>
                 <a href="#about"
                 onClick={() => handlePageChange('About')}>
                 About
+                </a>
+            </li>
+            <li>
+                <a href="#experience"
+                onClick={() => handlePageChange('Experience')}>
+                Experience
                 </a>
             </li>
             <li>
@@ -21,12 +26,6 @@ export default function Navigation({ currentPage, handlePageChange }) {
                 <a href="#contact"
                 onClick={() => handlePageChange('Contact')}>
                 Contact
-                </a>
-            </li>
-            <li>
-                <a href="#resume"
-                onClick={() => handlePageChange('Resume')}>
-                Resume
                 </a>
             </li>
         </ul>

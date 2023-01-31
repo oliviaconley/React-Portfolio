@@ -1,0 +1,45 @@
+import React from 'react';
+
+export default function Experience() {
+    return (
+      <div className='text-center'>
+          <p className='text-2xl py-6'>Experience · Skills</p> 
+
+        <div className='flex flex-cols-2 flex-wrap justify-center'>
+
+          <div className=''>
+            <p className='pb-4'>Developer</p> 
+            <ul className='text-left max-w-96 p-16 px-24 mr-8 rounded-full border-black border-2'>
+              <li>✔️ HTML5 / CSS3</li>
+              <li>✔️ JavaScript</li>
+              <li>✔️ Git</li>
+              <li>✔️ Node.js</li>
+              <li>✔️ React</li>
+              <li>✔️ Express.js</li>
+              <li>✔️ jQuery</li>
+              <li>✔️ Bootstrap / Tailwind</li>
+              <li>✔️ Handlebars.js </li>
+              <li>✔️ MySQL</li>
+              <li>✔️ MongoDB</li>
+            </ul>
+          </div>
+
+          <div className='relative'>
+            <p className='pb-4'>Producer</p> 
+            <ul className='text-left max-w-96 p-20 py-24 ml-8 rounded-full border-black border-2 bg-white'>
+              <li>✔️ Project Management</li>
+              <li>✔️ Multimedia Production</li>
+              <li>✔️ Product Development</li>
+              <li>✔️ Client Relations</li>
+              <li>✔️ Creative Problem-Solving</li>
+              <li>✔️ Writing</li>
+              <li>✔️ Editing</li>
+              <li>✔️ Strategy</li>
+              <li>✔️ Budgeting</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    );
+  }
