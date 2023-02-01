@@ -23,7 +23,7 @@ export default function About() {
             <ResumeDownload/>
           </div> 
           <div className='pl-8'>
-          <button className='transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-100 duration-300 rounded-full py-2 px-4'>Contact</button>
+          <button className='transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-100 duration-300 rounded-full py-2 px-4 border-black border'>Contact</button>
           </div>
         </div>
 
@@ -54,12 +54,12 @@ export default function About() {
 
             <div className='w-96 px-4'>
               <p className='text-2xl py-4'>About Me</p> 
-              <p>
-              A full-stack web developer and experienced multimedia producer, I graduated from Georgia Institute of Technology's Full Stack Web Development Bootcamp in December 2022 with developed skills in JavaScript, CSS, React.js, Express.js and more.
-              </p>
-              <p className='py-4'>
-              I rely on my outside-the-box thinking to design dynamic apps with intuitive and meaningful user experiences. Through my background as a producer and artist, I've honed my creative-problem solving skills to find solutions, whether in a pinch or for a long-term goal. Bilingual in English and Spanish, I am always curious to learn from others and believe in celebrating all of the strengths, differences and secret talents that make us unique.
-              </p>
+              <p className='py-2'><b>I am</b> a full-stack web developer with expertise in multimedia production.</p>
+              <p className='py-2'><b>An agile self-starter</b> who gets the tough stuff done.</p>
+              <p className='py-2'><b>A confident leader</b> with a passion for learning and team-building.</p>
+              <p className='py-2'><b>A master collaborator</b> with a strong perspective.</p>
+              <p className='py-2'><b>Sharp eye</b> for detail and creative problem-solving.</p>
+              <p className='py-2'><b>Bilingual in English and Spanish</b>, I am always curious to learn from others.</p>
             </div>
         </div>
 

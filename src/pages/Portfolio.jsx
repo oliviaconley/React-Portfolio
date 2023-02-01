@@ -35,9 +35,9 @@ export default function Portfolio() {
             <div className='flex flex-row flex-wrap'>
             {data.map(({ id, image, title, github, site }) => {
                 return (
-            <div key={id} className='m-8 p-8 border-black border-2 rounded-3xl bg-white'>
+            <div key={id} className='m-8 p-8 border-black border rounded-3xl bg-white'>
               <div className='flex flex-col'>
-                <img className='max-w-full w-60 h-45 rounded-2xl' src={image} alt={title} />
+                <img className='max-w-full w-60 h-45 rounded-2xl drop-shadow-md' src={image} alt={title} />
               
               <h3 className='py-2'>{title}</h3>
 
@@ -51,7 +51,7 @@ export default function Portfolio() {
                 </a>
                 <a
                   href={site}
-                  className='transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-100 duration-300 rounded-full py-2 px-4'
+                  className='transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-100 duration-300 rounded-full py-2 px-4 border border-black' 
                   target="_blank"
                 >
                   Live Site

@@ -1,15 +1,17 @@
 import React from 'react';
+import ResumeDownload from '../components/ResumeDownload';
 
 export default function Experience() {
     return (
       <div className='text-center'>
-          <p className='text-2xl py-6'>Experience · Skills</p> 
+          <p className='text-2xl py-10'>Experience · Skills</p> 
+          <ResumeDownload/>
 
-        <div className='flex flex-cols-2 flex-wrap justify-center'>
+        <div className='flex flex-cols-2 flex-wrap'>
 
           <div className=''>
             <p className='pb-4'>Developer</p> 
-            <ul className='text-left max-w-96 p-16 px-24 mr-8 rounded-full border-black border-2'>
+            <ul className='text-left max-w-96 p-16 px-24 mr-8 rounded-full border-black border-2 bg-white'>
               <li>✔️ HTML5 / CSS3</li>
               <li>✔️ JavaScript</li>
               <li>✔️ Git</li>
@@ -26,7 +28,7 @@ export default function Experience() {
 
           <div className='relative'>
             <p className='pb-4'>Producer</p> 
-            <ul className='text-left max-w-96 p-20 py-24 ml-8 rounded-full border-black border-2 bg-white'>
+            <ul className='text-left text-white max-w-96 p-20 py-24 ml-8 rounded-full border-white border-2 bg-black'>
               <li>✔️ Project Management</li>
               <li>✔️ Multimedia Production</li>
               <li>✔️ Product Development</li>
