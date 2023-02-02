@@ -3,11 +3,12 @@ import ResumeDownload from '../components/ResumeDownload';
 
 export default function Experience() {
     return (
-      <div className='text-center'>
-          <p className='text-2xl py-10'>Experience · Skills</p> 
+      <section className='text-center' id="experience">
+          <p className='text-2xl pt-20 pb-2'>Experience</p> 
+          <p className='text-sm pb-12'>Check out my skills</p> 
           <ResumeDownload/>
 
-        <div className='flex flex-cols-2 flex-wrap'>
+        <div className='flex flex-cols-2 flex-wrap place-content-center'>
 
           <div className=''>
             <p className='pb-4'>Developer</p> 
@@ -42,6 +43,6 @@ export default function Experience() {
           </div>
 
         </div>
-      </div>
+      </section>
     );
   }

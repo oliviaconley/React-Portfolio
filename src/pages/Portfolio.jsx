@@ -29,10 +29,12 @@ const data = [
 
 export default function Portfolio() {
     return (
-        <div>
-            <p className='text-center text-2xl py-24'>My Work</p> 
-
-            <div className='flex flex-row flex-wrap'>
+        <section id='portfolio'>
+          <div className='text-center '>
+            <p className='text-2xl pt-20 pb-2'>My Work</p> 
+            <p className='text-sm pb-16'>Check out my projects</p> 
+            </div>
+            <div className='flex flex-row flex-wrap place-content-center'>
             {data.map(({ id, image, title, github, site }) => {
                 return (
             <div key={id} className='m-8 p-8 border-black border rounded-3xl bg-white'>
@@ -62,6 +64,6 @@ export default function Portfolio() {
                 ); 
             })}
             </div>
-        </div>
+        </section>
     );
 }

@@ -5,7 +5,7 @@ import GitHub from '../images/GitHub.png';
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className='justify-center'>
       <ul className="flex flex-row bottom-5 w-full justify-center py-4">
         <li className='w-7 h-7 mx-2'><a href="https://www.linkedin.com/in/olivia-conley/" target="_blank"><img className="linkedin" src={LinkedIn} alt="LinkedIn"/></a></li>
         <li className='w-7 h-7 mx-2'><a href="https://github.com/oliviaconley" target="_blank"><img className="github" src={GitHub} alt="GitHub"/></a></li>

@@ -5,13 +5,10 @@ import Davidson from '../images/Davidson.png';
 import ODK from '../images/ODK.jpeg'; 
 import Fulbright from '../images/Fulbright.jpeg'; 
 import ResumeDownload from '../components/ResumeDownload';
-import Portfolio from './Portfolio'; 
-import Experience from './Experience'; 
-import Contact from './Contact'; 
 
 export default function About() {
     return (
-      <div className='flex flex-col flex-wrap justify-center items-center p-12'>
+      <section className='flex flex-col flex-wrap justify-center items-center p-12' id="about">
         <div className='text-center text-4xl py-10'>
           <p className='pb-4'>Hey y'all!</p>
           <p>I'm Olivia Conley</p> 
@@ -23,7 +20,7 @@ export default function About() {
             <ResumeDownload/>
           </div> 
           <div className='pl-8'>
-          <button className='transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-100 duration-300 rounded-full py-2 px-4 border-black border'>Contact</button>
+          <a href='#contact'> <button className='transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-100 duration-300 rounded-full py-2 px-4 border-black border'>Contact</button></a>
           </div>
         </div>
 
@@ -54,18 +51,15 @@ export default function About() {
 
             <div className='w-96 px-4'>
               <p className='text-2xl py-4'>About Me</p> 
-              <p className='py-2'><b>I am</b> a full-stack web developer with expertise in multimedia production.</p>
+              <p className='py-2'><b>I am...</b></p>
+              <p><b>A full-stack web developer</b> with expertise in multimedia production.</p>
               <p className='py-2'><b>An agile self-starter</b> who gets the tough stuff done.</p>
               <p className='py-2'><b>A confident leader</b> with a passion for learning and team-building.</p>
               <p className='py-2'><b>A master collaborator</b> with a strong perspective.</p>
               <p className='py-2'><b>Sharp eye</b> for detail and creative problem-solving.</p>
-              <p className='py-2'><b>Bilingual in English and Spanish</b>, I am always curious to learn from others.</p>
+              <p className='py-2'><b>Bilingual in English and Spanish</b>, and always curious to learn from others.</p>
             </div>
         </div>
-
-        <Experience/> 
-        <Portfolio/>
-        <Contact/>
-      </div>
+      </section>
     );
   }
