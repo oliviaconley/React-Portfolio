@@ -22,7 +22,7 @@ export default function Contact() {
           </div>
 
           <form className='m-4' target="_blank" action="https://formsubmit.co/oliviarconley@gmail.com" method="POST">
-          <div className="text-2xl pt-20">Contact Me</div>
+          <div className="text-2xl pt-24">Contact Me</div>
           <p className='text-sm py-2'>Shoot me an email</p> 
             <div>
               <div>
