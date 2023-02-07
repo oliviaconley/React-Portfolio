@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/static/js/main.5391401d.chunk.js",
+    "main.js.map": "/static/js/main.5391401d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3f7a7fcc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3f7a7fcc.js.map",
+    "static/js/2.b97d2896.chunk.js": "/static/js/2.b97d2896.chunk.js",
+    "static/js/2.b97d2896.chunk.js.map": "/static/js/2.b97d2896.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.b97d2896.chunk.js.LICENSE.txt": "/static/js/2.b97d2896.chunk.js.LICENSE.txt",
+    "static/media/Davidson.41f33eff.png": "/static/media/Davidson.41f33eff.png",
+    "static/media/Email.1ba71f1b.png": "/static/media/Email.1ba71f1b.png",
+    "static/media/Fulbright.700a79fe.jpeg": "/static/media/Fulbright.700a79fe.jpeg",
+    "static/media/GitHubWhite.4d74fd76.png": "/static/media/GitHubWhite.4d74fd76.png",
+    "static/media/Headshot.83dbe850.jpg": "/static/media/Headshot.83dbe850.jpg",
+    "static/media/LinkedIn.f5925ee4.png": "/static/media/LinkedIn.f5925ee4.png",
+    "static/media/LinkedInWhite.ac689c24.png": "/static/media/LinkedInWhite.ac689c24.png",
+    "static/media/ODK.4605714f.jpeg": "/static/media/ODK.4605714f.jpeg",
+    "static/media/Olivia.ce6d646d.jpg": "/static/media/Olivia.ce6d646d.jpg",
+    "static/media/Planner.b9c96669.jpg": "/static/media/Planner.b9c96669.jpg",
+    "static/media/Polished.1bb8d783.png": "/static/media/Polished.1bb8d783.png",
+    "static/media/Veriti.2c489747.png": "/static/media/Veriti.2c489747.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f7a7fcc.js",
+    "static/js/2.b97d2896.chunk.js",
+    "static/js/main.5391401d.chunk.js"
+  ]
+}
